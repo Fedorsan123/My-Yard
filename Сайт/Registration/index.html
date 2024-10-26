@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="loader">
+        <img src="../img/Машинка.svg" class="loader_img"></img>
+    </div>
+
+    <header class="header">
+        <div class="logo">
+            <img src="../img/Logo.svg" alt="" srcset="">
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_title">Регистрация</div>
+        <div class="main_input">
+            <div class="input_item">
+                <img class="input_img" src="../img/Mail.svg" alt="">
+                <input id="Mail" type="text" class="input" placeholder="email@gmail.com">
+            </div>
+            <div class="input_item">
+                <img class="input_img" src="../img/People.svg" alt="">
+                <input id="Name" type="text" class="input" placeholder="ФИО">
+            </div>
+            <div class="input_item">
+                <img class="input_img" src="../img/Lock.svg" alt="">
+                <input id="Password" type="text" class="input" placeholder="Пароль123">
+            </div>
+            <div class="input_item">
+                <img class="input_img" src="../img/House.svg" alt="">
+                <input id="Adress" type="text" class="input" placeholder="Адрес" list="options">
+                <datalist id="options">
+                    <option value="Краснореченская 72, к2"></option>
+                    <option value="Звездный бульвар 28, к2"></option>
+                    <option value="Леонова 1, 3к"></option>
+                   </datalist>
+            </div>
+        </div>
+        <a href="#"><button id="Registr" class="btn">Зарегистрироваться</button></a>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
